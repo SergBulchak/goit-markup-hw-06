@@ -805,3 +805,38 @@ fill: currentColor;
     border-radius: 50%;
     cursor: pointer;
 }
+
+.modal-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.modal-form-title {
+    margin-top: 40px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.17;
+    color: var(--primary-title-color);
+}
+
+.modal-input {
+    width: 448px;
+    height: 40px;
+    margin-top: 4px;
+}
+
+.modal-coment {
+    width: 448px;
+    height: 120px;
+}
+
+.modal-label {
+    display: flex;
+    flex-direction: column;
+    
+}
