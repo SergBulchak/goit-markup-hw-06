@@ -810,9 +810,8 @@ fill: currentColor;
     align-items: center;
     display: flex;
     flex-direction: column;
-    
-
 }
+
 .modal-form-title {
     margin-top: 40px;
     margin-bottom: 12px;
@@ -824,19 +823,55 @@ fill: currentColor;
     color: var(--primary-title-color);
 }
 
+.icon-modal {
+    position:absolute;
+    display: inline-block;
+    top: 30px;
+    left: 15px;  
+}
 .modal-input {
     width: 448px;
     height: 40px;
     margin-top: 4px;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
 }
 
 .modal-coment {
+    padding-left: 16px;
+    margin-top: 4px;
     width: 448px;
     height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
 }
 
 .modal-label {
+    position: relative;
     display: flex;
     flex-direction: column;
-    
+    font-size: 12px;
+    line-height: 1.17;
+    color: var(--primary-text-color);
+}
+
+.checkbox-list {
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-check {
+    display: flex;
+}
+
+
+.submit-btn {
+   margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
 }
