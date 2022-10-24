@@ -894,9 +894,10 @@ fill: currentColor;
     margin-bottom: 30px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
-.modal-check .icon-check {
+.checkbox-on {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -909,7 +910,16 @@ fill: currentColor;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-checkbox:checked + .checkbox-on{
+    fill: var(--primary-background-color);
+    background-color: var(--accent-color);
+    border-color: transparent;
+}
 
+.modal-checkbox:focus + .checkbox-on 
+ 
+
+ 
 
 .submit-btn {
     margin: 0 auto;
