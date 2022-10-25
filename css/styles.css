@@ -733,7 +733,7 @@ color: var(--primary-text-color);
     height: 294px;
 }
 
-.work-box:hover .overlay {
+.work-list:hover .overlay {
     transform: translatey(0);
 }
 
