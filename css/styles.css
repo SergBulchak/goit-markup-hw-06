@@ -224,9 +224,10 @@ margin-left: 50px;
 
 .footer >.container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: baseline;
-    gap: 70px;
+
+  
 }
 
 .footer-logo-adress {
@@ -236,7 +237,6 @@ margin-left: 50px;
 .foot-form-field {
     display: flex;
     align-items: flex-end;
-    margin-left: 93px;
 }
 .form-title {
     text-align: start;
@@ -299,12 +299,9 @@ margin-left: 50px;
     font-weight: inherit;
     font-size: 16px;
     line-height: 1.25;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--primary-background-color)
 }
 
-.social {
-    margin-right: auto;
-}
 
 .footer-soc-title {
     text-align: start;
