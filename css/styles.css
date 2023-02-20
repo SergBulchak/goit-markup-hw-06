@@ -137,7 +137,7 @@ margin-left: 50px;
     fill:currentColor;
 }
 
-.container-contacts {
+.head-contacts {
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -994,3 +994,4 @@ color: var(--primary-text-color);
 .submit-btn:active {
     background-color: #188ce8;
 }
+
